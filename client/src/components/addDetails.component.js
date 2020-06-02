@@ -77,7 +77,7 @@ class AddDetails extends Component {
                     </div>
                     <div className = "form-group">
                         <label>Phone Numer</label>
-                        <input type="text" className="form-control" value={this.state.phonenumber} onChange={this.onChangePhoneNumber} />
+                        <input type="number" pattern ="[0-9]*" className="form-control" value={this.state.phonenumber} onChange={this.onChangePhoneNumber} />
                     </div>
                     <div className = "form-group">
                         <label>Email Id</label>
